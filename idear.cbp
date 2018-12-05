@@ -31,6 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="framework/bytecode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="framework/bytecode.h" />
+		<Unit filename="framework/readFile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="framework/readFile.h" />
+		<Unit filename="framework/type.h" />
+		<Unit filename="simple/idear-cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
