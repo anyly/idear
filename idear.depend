@@ -1,3 +1,6 @@
 # depslib dependency file v1.0
 1543987014 source:c:\users\tony\idear\framework\readfile.c
 
+1543990072 source:c:\users\tony\idear\simple\idear-cmd.c
+	<stdio.h>
+
