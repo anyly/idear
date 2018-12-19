@@ -31,11 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="framework/Array.h" />
-		<Unit filename="framework/Function.h" />
-		<Unit filename="framework/Number.h" />
-		<Unit filename="framework/Object.h" />
-		<Unit filename="framework/String.h" />
 		<Unit filename="framework/bytecode.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -44,8 +39,19 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="framework/readFile.h" />
-		<Unit filename="framework/type.h" />
+		<Unit filename="framework/type/Array.h" />
+		<Unit filename="framework/type/Function.h" />
+		<Unit filename="framework/type/Number.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="framework/type/Number.h" />
+		<Unit filename="framework/type/Object.h" />
+		<Unit filename="framework/type/String.h" />
+		<Unit filename="framework/type/type.h" />
 		<Unit filename="simple/idear-cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simple/test-number.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

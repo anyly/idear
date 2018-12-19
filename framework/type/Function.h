@@ -3,9 +3,9 @@
 
 #include "type.h"
 
-struct FunctionStruct {
+typedef struct {
     String code;
-};
+} FunctionStruct;
 typedef FunctionStruct* Function;
 
 #endif // FUNCTION_H_INCLUDED

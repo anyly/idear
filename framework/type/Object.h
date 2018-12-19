@@ -3,10 +3,10 @@
 
 #include "type.h"
 
-struct ObjectStruct {
-    size_t length;
+typedef struct {
+    unsigned int length;
     Identifier *property;
-};
+} ObjectStruct;
 typedef ObjectStruct* Object;
 
 Object createObject();

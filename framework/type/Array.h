@@ -3,10 +3,10 @@
 
 #include "type.h"
 
-struct ArrayStruct {
+typedef struct {
     size_t length;
     Any *item;
-};
-typedef ArrayStruct Array;
+} ArrayStruct;
+typedef ArrayStruct* Array;
 
 #endif // ARRAY_H_INCLUDED
