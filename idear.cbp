@@ -31,29 +31,29 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="framework/bytecode.c">
+		<Unit filename="src/framework/bytecode.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="framework/bytecode.h" />
-		<Unit filename="framework/readFile.c">
+		<Unit filename="src/framework/bytecode.h" />
+		<Unit filename="src/framework/readFile.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="framework/readFile.h" />
-		<Unit filename="framework/type/Array.h" />
-		<Unit filename="framework/type/Function.h" />
-		<Unit filename="framework/type/Number.c">
+		<Unit filename="src/framework/readFile.h" />
+		<Unit filename="src/framework/type/Array.h" />
+		<Unit filename="src/framework/type/Boolean.h" />
+		<Unit filename="src/framework/type/Function.h" />
+		<Unit filename="src/framework/type/Number.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="framework/type/Number.h" />
-		<Unit filename="framework/type/Object.h" />
-		<Unit filename="framework/type/String.h" />
-		<Unit filename="framework/type/type.h" />
-		<Unit filename="simple/idear-cmd.c">
+		<Unit filename="src/framework/type/Number.h" />
+		<Unit filename="src/framework/type/Object.h" />
+		<Unit filename="src/framework/type/String.h" />
+		<Unit filename="src/framework/type/type.h" />
+		<Unit filename="src/runtime/bytecode.h" />
+		<Unit filename="src/runtime/parse.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="simple/test-number.c">
-			<Option compilerVar="CC" />
-		</Unit>
+		<Unit filename="src/runtime/parser.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -3,6 +3,19 @@
 
 #include "type.h"
 
+typedef int Int;
+typedef long long Long;
+typedef double Double;
+
+Int MIN_INT = 0x80000000;
+Int MAX_INT = 0x7fffffff;
+
+Long MIN_LONG = 0x8000000000000000L;
+Long MAX_LONG = 0x7fffffffffffffffL;
+
+Double MIN_DOUBLE = 4.9E-324D;
+Double MAX_DOUBLE = 1.7976931348623157E308D;
+
 typedef struct {
     unsigned int counter;
     /**
@@ -21,10 +34,6 @@ typedef int Int;
 typedef double Double;
 
 typedef long long Long;
-
-#define true 1;
-
-#define false 0;
 
 Number __Number__construct__int(Int a);
 Number __Number__construct__long(Long a);

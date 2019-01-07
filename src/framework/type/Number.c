@@ -1,14 +1,5 @@
 #include "Number.h"
 
-Int MIN_INT = 0x80000000;
-Int MAX_INT = 0x7fffffff;
-
-Long MIN_LONG = 0x8000000000000000L;
-Long MAX_LONG = 0x7fffffffffffffffL;
-
-Double MIN_DOUBLE = 4.9E-324D;
-Double MAX_DOUBLE = 1.7976931348623157E308D;
-
 Number __Number__construct__int(Int a) {
     Number number = malloc(sizeof(NumberStruct));
     number->counter = 1;

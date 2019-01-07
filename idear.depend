@@ -1,26 +1,43 @@
 # depslib dependency file v1.0
 1543987014 source:c:\users\tony\idear\framework\readfile.c
 
-1544596466 source:c:\users\tony\idear\simple\idear-cmd.c
+1545211656 source:c:\users\tony\idear\simple\idear-cmd.c
 	<stdio.h>
 
 1543992229 source:c:\users\tony\idear\framework\bytecode.c
 
-1544601988 source:c:\users\tony\idear\framework\type\number.c
+1545637624 source:c:\users\tony\idear\framework\type\number.c
 	"Number.h"
 
-1544601969 c:\users\tony\idear\framework\type\number.h
+1546400549 c:\users\tony\idear\framework\type\number.h
 	"type.h"
 
-1544582860 c:\users\tony\idear\framework\type\type.h
+1546400670 c:\users\tony\idear\framework\type\type.h
 	<stdint.h>
 	<stdlib.h>
+	"Boolean.h"
 	"Number.h"
 	"String.h"
+	"Object.h"
+	"Array.h"
+	"Function.h"
 
 1544410259 c:\users\tony\idear\framework\type\string.h
 	"type.h"
 
-1544599293 source:c:\users\tony\idear\simple\test-number.c
+1545211645 source:c:\users\tony\idear\simple\test-number.c
 	<stdio.h>
+
+1546400723 c:\users\tony\idear\framework\type\boolean.h
+	"type.h"
+
+1546400344 c:\users\tony\idear\framework\type\object.h
+	"type.h"
+
+1544410085 c:\users\tony\idear\framework\type\array.h
+	"type.h"
+
+1545294399 c:\users\tony\idear\framework\type\function.h
+	"type.h"
+	"Array.h"
 
